@@ -1,84 +1,52 @@
 *{
-  margin:0;
-  padding:0;
-  }
- body{
- background-image:url("..Assets/bg.png");
+    margin: 0;
+    padding: 0;
+}
 body{
-  background-color:#DEB887;
+    background-image: url("../Assets/bg.png");
+    color: red;
+   text-align: center;
 }
-h1
-{
-  text-align:center;
-  background-color:#808000;
-  padding:6px;
-  color:white;
+.gameName{
+	text-align:center;
+	font-size:40px;
 }
-
-.main
-{
-  height:525px;
-  width:525px;
-  background-image:url("snake and ladder game.png.png");
-  background-size:525px 525px;
-  background-repeat:no-repeat;
-  float:left;
-  border:3px solid 	#A52A2A;
+.butn{
+	background-color: transparent;
+	border: none;
+}
+.container {
+         margin:auto;
+        text-align:right; 
 }
 
-.superimposed
-{
-
-  height:500px;
-  width:500px;
-  position:absolute;
-  top:90px;
-  left:20px;
+.dice {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
 }
 
-#side
-{
-  height:500px;
-  width:200px;
-  margin-left:500px;
+img {
+        width: 100%;
 }
-
-.btn
-{
-  height:40px;
-  width:100px;
-  margin-left:50px;
-  margin-top:20px;
-  border-radius:5px;
+.container{
+	display: grid;
+	justify-content:center;
 }
-.boardbox
-{
-  height:50px;
-  width:50px;
-  z-index:-1;
-
+.row1{
+	border:solid 1px black;
+	display:flex;
+	width: fit-content;
+    align-items: center;
 }
-.left
-{
-  float:left;
-}
-.right
-{
-  float:right;
-}
-.img
-{
-  height:45px;
-  width:50px;
-  margin:2px 0px 3px 0px;
-}
-#dice
-{
-  height:80px;
-  width:80px;
-  font-size:70px;
-  color:black;
-  margin:auto;
-  border:none;
-  background-color:white;
+.column{
+	border: solid 1px black;
+	background-color: rgb(41, 218, 224);
+	text-align: center;
+	padding: 10px;
+	font-size:20px;
+	color:black;
+	width:65px;
+	height:45px;
+	font-weight:bold;
 }
