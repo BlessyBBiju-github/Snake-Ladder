@@ -1,142 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    
-        <link rel="stylesheet" href="css/snakeladder.css">
-        <script src="js/snakeladder.js"></script>
-        <title>Snake and Ladder</title>
-    </head>
-<body>
-    <h1 class="gameName">Snake&Ladder Game</h1>
-   <div class="container tables ">
-     <div class="row1">
-         <div id="100" class="column">100</div>
-         <div id="99" class="column">99</div>
-         <div id="98" class="column">98</div>
-         <div id="97" class="column">97</div>
-         <div id="96" class="column">96</div>
-         <div id="95" class="column">95</div>
-         <div id="94" class="column">94</div>
-         <div id="93" class="column">93</div>
-         <div id="92" class="column">92</div>
-         <div id="91" class="column">91</div>
-     </div>
-    <div class="row1">
-         <div id="81" class="column">81</div>
-         <div id="82" class="column">82</div>
-         <div id="83" class="column">83</div>
-         <div id="84" class="column">84</div>
-         <div id="85" class="column">85</div>
-         <div id="86" class="column">86</div>
-         <div id="87" class="column">87</div>
-         <div id="88" class="column">88</div>
-         <div id="89" class="column">89</div>
-         <div id="90" class="column">90</div>
-     </div>     <div class="row1">
-         <div id="100" class="column">80</div>
-         <div id="99" class="column">79</div>
-         <div id="98" class="column">78</div>
-         <div id="97" class="column">77</div>
-         <div id="96" class="column">76</div>
-         <div id="95" class="column">75</div>
-         <div id="94" class="column">74</div>
-         <div id="93" class="column">73</div>
-         <div id="92" class="column">72</div>
-         <div id="91" class="column">71</div>
-     </div>
-    <div class="row1">
-         <div id="81" class="column">61</div>
-         <div id="82" class="column">62</div>
-         <div id="83" class="column">63</div>
-         <div id="84" class="column">64</div>
-         <div id="85" class="column">65</div>
-         <div id="86" class="column">66</div>
-         <div id="87" class="column">67</div>
-         <div id="88" class="column">68</div>
-         <div id="89" class="column">69</div>
-         <div id="90" class="column">70</div>
-     </div>     <div class="row1">
-         <div id="100" class="column">60</div>
-         <div id="99" class="column">59</div>
-         <div id="98" class="column">58</div>
-         <div id="97" class="column">57</div>
-         <div id="96" class="column">56</div>
-         <div id="95" class="column">55</div>
-         <div id="94" class="column">54</div>
-         <div id="93" class="column">53</div>
-         <div id="92" class="column">52</div>
-         <div id="91" class="column">51</div>
-     </div>
-    <div class="row1">
-         <div id="81" class="column">41</div>
-         <div id="82" class="column">42</div>
-         <div id="83" class="column">43</div>
-         <div id="84" class="column">44</div>
-         <div id="85" class="column">45</div>
-         <div id="86" class="column">46</div>
-         <div id="87" class="column">47</div>
-         <div id="88" class="column">48</div>
-         <div id="89" class="column">49</div>
-         <div id="90" class="column">50</div>
-     </div>
-     <div class="row1">
-         <div id="100" class="column">40</div>
-         <div id="99" class="column">39</div>
-         <div id="98" class="column">38</div>
-         <div id="97" class="column">37</div>
-         <div id="96" class="column">36</div>
-         <div id="95" class="column">35</div>
-         <div id="94" class="column">34</div>
-         <div id="93" class="column">33</div>
-         <div id="92" class="column">32</div>
-         <div id="91" class="column">31</div>
-     </div>
-    <div class="row1">
-         <div id="81" class="column">21</div>
-         <div id="82" class="column">22</div>
-         <div id="83" class="column">23</div>
-         <div id="84" class="column">24</div>
-         <div id="85" class="column">25</div>
-         <div id="86" class="column">26</div>
-         <div id="87" class="column">27</div>
-         <div id="88" class="column">28</div>
-         <div id="89" class="column">29</div>
-         <div id="90" class="column">30</div>
-     </div>
-     <div class="row1">
-         <div id="100" class="column">20</div>
-         <div id="99" class="column">19</div>
-         <div id="98" class="column">18</div>
-         <div id="97" class="column">17</div>
-         <div id="96" class="column">16</div>
-         <div id="95" class="column">15</div>
-         <div id="94" class="column">14</div>
-         <div id="93" class="column">13</div>
-         <div id="92" class="column">12</div>
-         <div id="91" class="column">11</div>
-     </div>
-    <div class="row1">
-         <div id="81" class="column">1</div>
-         <div id="82" class="column">2</div>
-         <div id="83" class="column">3</div>
-         <div id="84" class="column">4</div>
-         <div id="85" class="column">5</div>
-         <div id="86" class="column">6</div>
-         <div id="87" class="column">7</div>
-         <div id="88" class="column">8</div>
-         <div id="89" class="column">9</div>
-         <div id="90" class="column">10</div>
-     </div>
-
-   </div>
-    <div class="container">
-        <div class="dice">
-            <p class="Player1">Player 1</p>
-	   <button type="button" class="butn"onClick="rollTheDice()">
-            <img class="dicesl" src="assets/dic5.png">
-	   </button>
-        </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAKE AND LADDER GAME
+    </title>
+     <script src="snakeladder.js">
+    <link rel="stylesheet" href="css/snakeladder.css">
+  </head>
+  <body>
+    <div id="playBox">
+      <table>
+        <tr>
+          <td id="100" class="deepskyblue">
+          </td>
+          <td id="99" class="orange">
+          </td>
+          <td id="98" class="deepskyblue">
+          </td>
+          <td id="97" class="green">
+          </td>
+          <td id="96" class="violet">
+          </td>
+          <td id="95" class="deepskyblue">
+          </td>
+          <td id="94" class="violet">
+          </td>
+          <td id="93" class="deepskyblue">
+          </td>
+          <td id="92" class="green">
+          </td>
+          <td id="91" class="violet">
+          </td>
+        </tr>
+        <tr> 
+          <td id="81" class="yellow">
+          </td>
+          <td id="82" class="pink">
+          </td>
+          <td id="83" class="violet">
+          </td>
+          <td id="84" class="yellow">
+          </td>
+          <td id="85" class="pink">
+          </td>
+          <td id="86" class="yellow">
+          </td>
+          <td id="87" class="green">
+          </td>
+          <td id="88" class="pink">
+          </td>
+          <td id="89" class="yellow">
+          </td>
+          <td id="90" class="orange">
+          </td> 
+        </tr>
+        <tr>
+          <td id="80" class="green">
+          </td>
+          <td id="79" class="deepskyblue">
+          </td>
+          <td id="78" class="orange">
+          </td>
+          <td id="77" class="deepskyblue">
+          </td>
+          <td id="76" class="green">
+          </td>
+          <td id="75" class="deepskyblue">
+          </td>
+          <td id="74" class="orange">
+          </td>
+          <td id="73" class="deepskyblue">
+          </td>
+          <td id="72" class="violet">
+          </td>
+          <td id="71" class="deepskyblue">
+          </td>
+        </tr>
+        <tr>
+          <td id="61" class="yellow">
+          </td>
+          <td id="62" class="pink">
+          </td>
+          <td id="63" class="yellow">
+          </td>
+          <td id="64" class="violet">
+          </td>
+          <td id="65" class="yellow">
+          </td>
+          <td id="66" class="violet">
+          </td>
+          <td id="67" class="yellow">
+          </td>
+          <td id="68" class="green">
+          </td>
+          <td id="69" class="yellow">
+          </td>
+          <td id="70" class="green">
+          </td>
+        </tr>
+        <tr>
+          <td id="60" class="deepskyblue">
+          </td>
+          <td id="59" class="violet">
+          </td>
+          <td id="58" class="orange">
+          </td>
+          <td id="57" class="deepskyblue">
+          </td>
+          <td id="56" class="orange">
+          </td>
+          <td id="55" class="pink">
+          </td>
+          <td id="54" class="orange">
+          </td>
+          <td id="53" class="deepskyblue">
+          </td>
+          <td id="52" class="pink">
+          </td>
+          <td id="51" class="violet">
+          </td>  
+        </tr>
+        <tr>
+          <td id="41" class="yellow">
+          </td>
+          <td id="42" class="pink">
+          </td>
+          <td id="43" class="yellow">
+          </td>
+          <td id="44" class="green">
+          </td>
+          <td id="45" class="yellow">
+          </td>
+          <td id="46" class="green">
+          </td>
+          <td id="47" class="yellow">
+          </td>
+          <td id="48" class="green">
+          </td>
+          <td id="49" class="yellow">
+          </td>
+          <td id="50" class="orange">
+          </td>
+        </tr>
+        <tr>
+          <td id="40" class="green">
+          </td>
+          <td id="39" class="deepskyblue">
+          </td>
+          <td id="38" class="orange">
+          </td>
+          <td id="37" class="violet">
+          </td>
+          <td id="36" class="deepskyblue">
+          </td>
+          <td id="35" class="pink">
+          </td>
+          <td id="34" class="violet">
+          </td>
+          <td id="33" class="deepskyblue">
+          </td>
+          <td id="32" class="violet">
+          </td>
+          <td id="31" class="deepskyblue">
+          </td>   
+        </tr>
+        <tr>
+          <td id="21" class="violet">
+          </td>
+          <td id="22" class="yellow">
+          </td>
+          <td id="23" class="green">
+          </td>
+          <td id="24" class="yellow">
+          </td>
+          <td id="25" class="green">
+          </td>
+          <td id="26" class="yellow">
+          </td>
+          <td id="27" class="orange">
+          </td>
+          <td id="28" class="green">
+          </td>
+          <td id="29" class="yellow">
+          </td>
+          <td id="30" class="green">
+          </td>
+        </tr>
+        <tr>
+          <td id="20" class="deepskyblue">
+          </td>
+          <td id="19" class="orange">
+          </td>
+          <td id="18" class="pink">
+          </td>
+          <td id="17" class="violet">
+          </td>
+          <td id="16" class="pink">
+          </td>
+          <td id="15" class="violet">
+          </td>
+          <td id="14" class="deepskyblue">
+          </td>
+          <td id="13" class="violet">
+          </td>  
+          <td id="12" class="pink">
+          </td>
+          <td id="11" class="violet">
+          </td>
+        </tr>
+        <tr>
+          <td id="1" class="yellow">
+          </td>
+          <td id="2" class="violet">
+          </td>
+          <td id="3" class="green">
+          </td>
+          <td id="4" class="deepskyblue">
+          </td>
+          <td id="5" class="orange">
+          </td>
+          <td id="6" class="yellow">
+          </td>
+          <td id="7" class="green">
+          </td>
+          <td id="8" class="yellow">
+          </td>
+          <td id="9" class="orange">
+          </td>
+          <td id="10" class="deepskyblue">
+          </td>
+        </tr>
+      </table>
     </div>
+    <img src="Assets/snk1.png" class="snk1">
+    <img src="Assets/snk2.png" class="snk2">
+    <img src="Assets/snk3.png" class="snk3">
+    <img src="Assets/snk4.png" class="snk4">
+   <img src="Assets/snk5.png" class="snk5">
+    <img src="Assets/snk6.png" class="snk6">
+     
+    <div id="player">
+      GAME TYPE
+      <br>
+      <button type="button" id="choose_player" onclick="choose_player()">
+        CHOOSE GAME TYPE
+      </button>
     </div>
-</body>
+    <div id="color_choose">
+      <div id="player1">
+        Choose the color for player1: 
+        <select id="select1">
+          <option id="se1">red
+          </option>
+          <optionid="se2" >green
+          </option>
+          <option id="se3">yellow
+          </option>
+          <option id="se4">blue
+          </option>
+        </select>
+      </div>
+      <div id="player2">
+        Choose the color for player2: 
+        <select id="select2">
+          <option  id="s1">green
+          </option>
+          <option  id="s2">red
+          </option>
+          <option  id="s3">yellow
+          </option>
+          <option  id="s4">blue
+          </option>
+        </select>
+      </div>
+      <div id="player3">
+        Choose the color for player3: 
+        <select id="select3">
+          <option id="s5">yellow
+          </option>
+          <option id="s6">red
+          </option>
+          <option id="s7" >green
+          </option>
+          <option  id="s8">blue
+          </option>
+        </select>
+      </div>
+      <div id="player4">
+        Choose the color for player4: 
+        <select id="select4">
+          <option id="s9">blue
+          </option>
+          <option id="s10" >red
+          </option>
+          <option id="s11" >green
+          </option>
+          <option id="s12" >yellow
+          </option>
+        </select>
+      </div>
+    </div>
+    <button type="button" id="play" onclick="start()">
+      START
+    </button>
+    <div id="image_slide">
+      <img src="Assets/i4.jfif" id="poster">
+    </div>
+    <div id="dice">
+      <img src="Assets/dice6.png">
+    </div>
+    <div id="color_box">
+      <div id="red">
+      </div>
+      <div id="green" >
+      </div>
+      <div id="yellow">
+      </div>
+      <div id="blue" >
+      </div>
+    </div>
+   </script>
+  </body>
 </html>
+​
