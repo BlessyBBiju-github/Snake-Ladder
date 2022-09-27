@@ -1,0 +1,58 @@
+body{
+  background-color:#DEB887;
+}
+h1
+{
+  text-align:center;
+  background-color:#808000;
+  padding:6px;
+  color:white;
+}
+
+.main
+{
+  height:525px;
+  width:525px;
+  background-image:url("../Assets/snake and ladder game.png");
+  background-size:525px 525px;
+  background-repeat:no-repeat;
+  float:left;
+  border:3px solid  #A52A2A;
+}
+
+.butn {
+	background-color: transparent;
+	border: none;
+}
+
+.container {
+	margin: auto;
+	text-align: right;
+}
+
+.dice {
+	text-align: center;
+	display: inline-block;
+	
+}
+
+img1{
+	width: 100%;
+}
+
+
+
+.row1 {
+	display: flex;
+	width: fit-content;
+}
+
+.column {
+	background-color: transparent;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	width: 58.5px;
+	height: 56px;
+	font-weight: bold;
+}
