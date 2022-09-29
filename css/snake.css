@@ -1,15 +1,9 @@
-*{
-  margin:0;
-  padding:0;
-}
+
 body{
-  background-image:url("../Assets/bg1.png");
+  background-image:url("../Assets/blank-nature.png");
   background-size:cover;
   background-color:#DEB887;
- background-repeat:no-repeat;
- overflow:hidden;
-  
-}
+ }
 h1
 {
   text-align:center;
@@ -32,11 +26,13 @@ h1
 }
 
 .butn {
+       clear:left;
 	background-color: transparent;
 	border: none;
 }
 
 .container {
+         
 	margin: auto;
 	text-align: right;
 }
@@ -47,7 +43,7 @@ h1
 	
 }
 .img1{
-  width:100%;
+   width:100%;
 }
 .row1 {
 	display: flex;
@@ -65,4 +61,10 @@ h1
 }
 #image{
 	width:30px;
+}
+#image2{
+	width:68%;
+}
+.Player1{
+   color:red;
 }
